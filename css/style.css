@@ -1,0 +1,266 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+    background-size: auto;
+    background-position: center; 
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #272625;
+    text-shadow: #ccc;
+    padding: 5px;
+}
+
+nav a {
+    color: #f5f1eb;
+    font-family: 'Arima', cursive;
+    letter-spacing: 1px;
+    text-decoration: none; 
+    margin-right: 30px; 
+    transition: color 0.5s ease-in-out;
+}
+nav a:hover {
+    color: #b5412d;
+    text-decoration: none;
+    font-family: 'Arima', cursive;
+}
+
+.content {
+    text-align: center; 
+    padding: 100px;
+    background-color: #c7ccc6;
+    color: white;
+    background-image: url("https://i.pinimg.com/564x/8a/9f/dd/8a9fddf8208b41f4a83684f54354fad3.jpg"),
+    url("https://i.pinimg.com/564x/8a/9f/dd/8a9fddf8208b41f4a83684f54354fad3.jpg");
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #b5412d, -2px -2px 4px #272625; 
+    color: white; 
+}
+
+.content h2{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #4c5c54; 
+}
+
+.second{
+    background-color: #b5412d;
+}
+
+.second img {
+    float: center;
+    margin-top: 10px;
+    border-radius: 10%; 
+}
+
+.second h2 {
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white; 
+}
+
+.second p{
+    color: white;
+    font-size: 30px;
+    padding:20px;
+}
+
+.second hr {
+    border: none;
+    border-top: 20px dotted black; 
+    float: right;
+    width: 100%;
+    background-color:white;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+a:hover{
+    color:#b5412d;
+}
+
+.about h2{
+    font-family: 'Arima', cursive;
+    background-color: white;
+    font-size: 48px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.third{
+    padding:30px;
+    margin-top:0;
+    padding-top: 0;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 20px 6px 20px 0 rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.card-content {
+    background-color: #272625;
+    border-radius: 5px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 20px; 
+    min-height: 500px; 
+    color: white; 
+}
+
+.card-content h3 {
+    font-family: 'Arima', cursive;
+    letter-spacing: 2px;
+    margin:100;
+    font-size: 30px;
+}
+
+.card-content img {
+    height: 150px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.three_columns {
+    display:grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%; 
+    margin: 20px 0;
+}
+
+.languages ul {
+    text-align: left;
+    font-size: 20px;
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.leadership dl {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 5px;
+}
+
+dd {
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    
+}
+
+dd a:hover{
+    transition: color 0.5s ease-in-out;
+    color:#4c5c54;
+}
+
+.skills dl {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+ 
+.skills dt{
+    font-size: 25px;
+    text-align: left;
+}
+
+.skills dd{
+    font-size: 20px;
+    text-align: right;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Arima', cursive;
+    letter-spacing: 1px;
+    background-color: #272625;
+    color: #f5f1eb;
+    padding: 20px;
+}
+
+footer a:hover{
+    color: #BA0C2F;
+    text-decoration: none;
+    font-family: 'Arima', cursive;
+    transition: color 0.5s ease-in-out;
+}
+
+.contact{
+    font-family: 'Arima', cursive;
+    color:#4c5c54
+}
+.add{
+    font-size: 20px;
+}
+.phone{
+    font-size: 20px;
+}
+
+hr{
+    border-top: 20px dotted #4c5c54;
+    width:30%; 
+}
+
+.one-col {
+    background-color: #b5412d;
+    width: 50%;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px auto;
+    text-align: left;
+    color:white;
+    padding-right: 60px;
+}
+
+.one-col input[type="text"], .one-col input[type="email"], .one-col textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.one-col input[type="submit"] {
+    background-color: #272625;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Arima', cursive;
+}
+
+.one-col input[type="submit"]:hover {
+    background-color: #4c5c54;
+}
